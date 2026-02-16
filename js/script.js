@@ -83,20 +83,22 @@ const contentData = {
         <div class="section-wrapper">
             <div class="glass-card">
                 <h2>Sobre Mim</h2>
-                <img src="./images/daniel-ava.png" alt="foto de perfil de daniel" class="foto-profile2">
+                <img src="./images/daniel-perfil.jpeg" alt="foto de perfil de daniel" class="foto-profile2">
                 <p>
-                    Sou um desenvolvedor apaixonado por tecnologia tenho uma trajetoria de 17 anos atuando em operações de maquinas e gestão de pessoas.
-                    Unindo essa maturidade proficional a minha formação academica, atuo na área de desnvolvimento  que entende que a tecnologia é como uma linha de produção que precisa de processos e eficiência em seus resultados.
-                    </br>Durante minha transição de carreira estratégica no chão de fabrica, eu aprendi a lidar com prazos criticos, resolução de problemas sob pressão e a importancia de uma manutenção preventiva, 
-                    conceitos que levo para o codigo como <span class="negrito">"clean code"</span>. 
-                    Além disso meus anos gerindo pessoas me deram uma comunicação assertiva e uma facilidade de trabalhar em equipe que são fundamentais em metodologias ageis....
+                    Com 17 anos de experiência em operações industriais e gestão de pessoas, trago para o desenvolvimento de 
+                    software a mentalidade de eficiência do chão de fábrica. Vejo o código como uma linha de produção, que 
+                    exige processos bem definidos, eficiência e qualidade nos resultados. Durante minha atuação na indústria, 
+                    desenvolvi competências essenciais para o ambiente de desenvolvimento.
+                    Da gestão de máquinas: trouxe a habilidade de resolver problemas sob pressão.
+                    Na manutenção preventiva: aplicação de conceitos de prevenção e melhoria contínua, que se traduzem em práticas como <span class="negrito">"clean code"</span>.
+                    Da gestão de pessoas: a comunicação assertiva, liderança e colaboração, fundamentais para metodologias ágeis; </br>
+
+
                 </p>
                 <br>
                 <p>
-                    No desenvolvimento de aplicações web e apps nativos com foco em eficiência operacional. 
-                    Da lógica do banco de dados ao design da interfaceque que priorizam a experiência do usuário. 
-                    Entendo que um software, assim como uma linha de produção de alta performance, precisa ser ágil, 
-                    resiliente e livre de desperdícios.
+                    Sou um desenvolvedor que une a maturidade profissional adquirida na indústria para codigo.
+aplicando princípios de qualidade, escalabilidade e eficiência, sempre alinhados às boas práticas de engenharia de software.
                 </p>
                 </br>
                 
