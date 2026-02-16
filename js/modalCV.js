@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const iframe = document.getElementById("pdfViewer");
 
     // Caminho do seu arquivo PDF (ajuste se necessário)
-    const caminhoPdf = "./assets/pdf/Curriculo-2026.pdf"; 
+    const caminhoPdf = "/assets/pdf/Curriculo-2026.pdf"; 
 
     // VERIFICAÇÃO DE SEGURANÇA: Só executa se todos os elementos existirem
     if (btn && modal && span && iframe) {

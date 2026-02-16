@@ -98,11 +98,9 @@ const contentData = {
                 <br>
                 <p>
                     Sou um desenvolvedor que une a maturidade profissional adquirida na indústria para codigo.
-aplicando princípios de qualidade, escalabilidade e eficiência, sempre alinhados às boas práticas de engenharia de software.
+                    aplicando princípios de qualidade, escalabilidade e eficiência, sempre alinhados às boas práticas de engenharia de software.
                 </p>
                 </br>
-                
-        
                 
             </div>
         </div>
