@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Full Stack</title>
+    <!-- Link do cdn para icones do site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Link do css-->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/resposividade.css">
+    <link rel="stylesheet" href="./style/kframes.css">
+    <link rel="stylesheet" href="./style/terminal.css">
+
+
+    <link rel="stylesheet" href="./style/modalCV.css">
+
+    
+</head>
+<body>
+
+    <!-- Desenhado o fundo do site-->
+    <canvas id="tech-canvas"></canvas>
+
+    <!-- Menu fixo de navegação-->
+    <nav>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="text-emerald-500">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="15" x2="23" y2="15"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="15" x2="4" y2="15"></line>
+            </svg>
+            <span>PORTFOLIO</span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <button onclick="navigateTo('home')" id="btn-home" class="nav-btn btn active">
+                <i class="fas fa-home"></i> <span class="btn-text">Home</span>
+            </button>
+
+            <button onclick="navigateTo('sobre')" id="btn-sobre" class="nav-btn btn">
+                <i class="fas fa-id-card"></i> <span class="btn-text">About-me</span>
+            </button>
+
+            <button onclick="navigateTo('projetos')" id="btn-projetos" class="nav-btn btn">
+                <i class="fas fa-code"></i> <span class="btn-text">Projects</span>
+            </button>
+
+            <button onclick="navigateTo('contato'); setTimeout(iniciarAnimacaoTerminal, 300);" id="btn-contato1" class="nav-btn btn">
+                <i class="fas fa-envelope"></i> <span class="btn-text">Contato</span>
+            </button>
+        </div>
+
+        <button onclick="navigateTo('contato'); setTimeout(iniciarAnimacaoTerminal, 300);" id="btn-contato" class="btn-contact">
+            <i class="fas fa-envelope"></i>
+                <span class="btn-text">Contatos</span>
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <button class="menu-toggle" id="menuBtn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!-- Section onde sera carregado o conteudo da tela injetado do javascript -->
+    <main class=" content-area" id="content-area"></main>
+
+    <!-- Footer-->
+    <footer>
+        <span>&copy; 2026 Daniel. Todos os direitos reservados.</span>
+        <span>Feito com <span class="heart">HTML, CSS & JS</span> e persistência.</span>
+    </footer>
+
+    <!-- Link do js bacgroud-->
+    <script src="./js/backgroud.js"></script>
+    <!-- Link dojs da pagina principal-->
+    <script src="./js/script.js"></script>
+    <!-- Link do js responsivo-->
+    <script src="./js/resposividade.js"></script>
+
+
+    <script src="js/modalCV.js"></script>
+    
+</body>
+</html> 
+ 

@@ -1,0 +1,54 @@
+
+/*terminal.*/
+.terminal {
+    background-color: rgba(15, 23, 42, 0.8);
+    border: 1px solid var(--slate-700);
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    text-align: left;
+    width: 90%;
+    margin: 200px auto 2rem auto; /* 80px superior para sair de trás do menu */
+    max-width: 32rem;
+    backdrop-filter: blur(4px);
+}
+
+.terminal-header {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.term-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+}
+
+.bg-red {
+    background-color: #ef4444;
+}
+
+.bg-yellow {
+    background-color: #f59e0b;
+}
+
+.bg-green {
+    background-color: #22c55e;
+}
+
+.terminal-body {
+    color: var(--emerald-400);
+    min-height: 80px;
+    font-size: 0.875rem;
+    min-height: 250px;
+    line-height: 1.5; 
+}
+
+#typewriter-text {
+    white-space: pre-wrap; /* Mantém as quebras de linha e espaços */
+    word-break: break-word; /* Evita que o link saia do terminal em telas pequenas */
+    display: inline;
+}
+

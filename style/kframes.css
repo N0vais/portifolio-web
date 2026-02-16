@@ -1,0 +1,72 @@
+/* Animação do texto de entrada*/
+.animate-fade-in-up {
+    opacity: 0; /* Começa invisível */
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animações solicitadas para o deslocamento das sections*/
+.enter-right {
+    animation: enterRight 1.5s ease forwards;
+}
+
+.enter-left {
+    animation: enterLeft 1.5s ease forwards;
+}
+
+.exit-right {
+    animation: exitRight 1.5s ease forwards;
+}
+
+.exit-left {
+    animation: exitLeft 1.5s ease forwards;
+}
+
+@keyframes enterRight {
+    from {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes enterLeft {
+    from {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes exitRight {
+    to {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes exitLeft {
+    to {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+}

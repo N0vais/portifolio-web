@@ -1,0 +1,121 @@
+/* Estilo do botão hambúrguer  */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: 1px solid var(--slate-700);
+    color: var(--slate-200);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 45px;
+    /* Garante que o botão não mude de tamanho */
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 455px) {
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Garante que o botão hambúrguer apareça */
+    .menu-toggle {
+        display: block !important;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        width: 100px;
+        top: 90px;
+        right: 0;
+        background-color: var(--slate-900);
+        gap: 10px;
+        border-bottom: 2px solid var(--border-color);
+        z-index: 100;
+        box-sizing: border-box;
+    }
+
+    /* ESTA É A REGRA QUE FAZ APARECER */
+    .nav-links.active {
+        display: flex !important;
+    }
+
+    .glass-card {
+        margin-top: 100px;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .foto-profile2 {
+        float: none;
+        display: block;
+        margin: 50px auto 20px auto;
+        /* Centraliza a foto */
+        width: 100%;
+        /* Opcional: foto ocupa largura total no mobile */
+        max-width: 200px;
+    }
+
+    .glass-card h2 {
+        display: none;
+    }
+
+    .btn-main {
+        width: 100px;
+        height: 50px;
+        font-size: 0.7rem;
+        border: 1px solid black;
+    }
+
+}
+
+@media (max-width: 890px) {
+    .btn-text {
+        display: none;
+        /* Esconde o texto */
+    }
+
+    #btn-contato {
+        display: none;
+    }
+}
+
+@media (min-width: 891px) {
+
+    /* Esconde o botão que está dentro do menu */
+    #btn-contato1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
