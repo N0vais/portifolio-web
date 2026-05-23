@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixar Escape App</title>
+    <link rel="stylesheet" href="style/cardinformativo.css">
+</head>
+
+<body>
+    <!-- Desenhado o fundo do site-->
+    <canvas id="tech-canvas"></canvas>
+
+    <div class="container">
+        <h1>Escape App</h1>
+        <div class="image-3d">
+            <div class="carrossel-3d" id="carrossel">
+                <div class="slide-item active" data-index="0"><img src="images/imageApp.jpeg"
+                        alt="representação do app"></div>
+                <div class="slide-item" data-index="1"><img src="images/imageApp2.jpeg" alt="representação do app">
+                </div>
+                <div class="slide-item" data-index="2"><img src="images/imageApp3.jpeg" alt="representação do app">
+                </div>
+                <div class="slide-item" data-index="3"><img src="images/imageApp4.jpeg" alt="representação do app">
+                </div>
+                <div class="slide-item" data-index="4"><img src="images/imageApp5.jpeg" alt="representação do app">
+                </div>
+                <div class="slide-item" data-index="5"><img src="images/imageApp6.jpeg" alt="representação do app">
+                </div>
+            </div>
+        </div>
+
+        <p>Bem-vindo a rede social "Escape"! Este aplicativo oferece uma experiência de comunicação completa e automação
+            de forma rápida e divertida.</p>
+        <p><strong>Exclusivo para Android.</strong></p>
+
+        <!-- Botão que apenas abre o Pop-up interno -->
+        <button class="btn-trigger" onclick="abrirModal()">Instalar Aplicativo</button>
+    </div>
+
+    <!-- Estrutura do Pop-up (Modal) -->
+    <div class="modal-overlay" id="meuModal">
+        <div class="modal-box">
+            <h3 id="modalTitulo">Confirmação de Download</h3>
+            <p clas=" modalP" id="modalTexto">Você realmente quer baixar esse arquivo?</p>
+
+            <div class="modal-buttons" id="botoesModal">
+                <button class="btn-modal btn-confirm" onclick="iniciarDownload()">Sim</button>
+                <button class="btn-modal btn-cancel" onclick="fecharModal()">Não</button>
+            </div>
+
+            <!-- Barra que vai encher simulando o download -->
+            <div class="progress-container" id="progressoContainer">
+                <div class="progress-bar" id="barraProgresso"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer>
+        <span>&copy; 2026 Daniel. Todos os direitos reservados.</span>
+        <span>Feito com <span class="heart">HTML, CSS & JS</span> e persistência.</span>
+    </footer>
+
+    <script src="js/backgroud.js"></script>
+
+    <script src="js/cardinformativo.js"></script>
+
+</body>
+
+</html>

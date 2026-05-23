@@ -247,7 +247,7 @@ const contentData = {
                     </div>
                     <h3>Asistente TeraPix</h3>
                     <p>
-                        É um sistema de cuidado contínuo que integra Inteligência Artificial e supervisão clínica de piscologos e piscqtrico para transformar o tratamento de ansiedade e depressão, 
+                        É um sistema de cuidado contínuo que integra Inteligência Artificial e supervisão clínica de piscologos e psiquiátrico para transformar o tratamento de ansiedade e depressão, 
                         com <span class="negrito">"Parcerias B2B"</span> que oferecer tecnologia diferenciada e monitoramento contínuo dos pacientes.
                     <br>
                         <span class="negrito">Benefício</span> que buscam reduzir casos de burnout e diminuir o absenteísmo entre colaboradores.
@@ -292,6 +292,39 @@ const contentData = {
                     </div>
                 </div>
                 
+                <a href="./cardinformativo.html" target="_blank" style="text-decoration: none; color: inherit;">
+                
+                    <div class="project-card">
+                        <div class="icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="5" y="2" width="14" height="20" rx="3"></rect>
+                                <path d="M12 5h.01"></path>
+                                <circle cx="12" cy="13" r="3"></circle>
+                                <path d="M12 7a6 6 0 0 1 6 6"></path>
+                                <path d="M6 13a6 6 0 0 1 6-6"></path>
+                            </svg>    
+                        </div>
+                        <h3>APP Interativo</h3>
+                        <p>
+                            Este aplicativo foi construído sob a filosofia da <span class="negrito">conectividade ágil</span>, utilizando <span class="negrito">Dart, Flutter e Android Studio.</span>
+                            O resultado é uma rede social leve e intuitiva, feita para você interagir, se divertir e ficar por dentro das notícias 
+                            do seu grupo.
+                            Atualmente em sua <span class="negrito">versão beta</span>, o projeto foca na excelência do que realmente importa: 
+                            um feed totalmente funcional e recursos próprios otimizados, utilizando <span class="negrito">banco de dados Supabase </span>
+                            e versionados com GitHub. Cada linha de código aqui reflete meu compromisso em dominar as ferramentas 
+                            modernas de desenvolvimento mobile, entregando uma experiência fluida que transforma dados em interações reais.    
+                        </p>
+                        <div class="tags">
+                        
+                            <span class="tag"><i title="Android Studio" class="devicon-androidstudio-plain colored"></i></span>
+                            <span class="tag"><i title="Dart" class="devicon-dart-plain colored"></i></span>
+                            <span class="tag"><i title="Flutter" class="devicon-flutter-plain colored"></i></span>
+                            <span class="tag"><i title="Supabase" class="devicon-supabase-plain colored"></i></span>
+
+                        </div>
+                    </div>
+                <a>
+
             </div>
         </section>`,
 
@@ -344,7 +377,7 @@ function navigateTo(newSection) {
 
         currentSection = newSection;
     }, 300);
-    
+
 }
 
 // Função que injeta o conteúdo assim que a pagina e carregada
@@ -362,11 +395,11 @@ let estaDigitando = false;
 // Fução de digitação do terminal
 function iniciarAnimacaoTerminal() {
     const terminalElement = document.getElementById('typewriter-text');
-    
+
     // VERIFICAÇÃO DE SEGURANÇA: Só continua se o elemento existir
     if (!terminalElement) {
         console.warn("Aguardando carregamento do terminal...");
-        return; 
+        return;
     }
     if (estaDigitando) return;
 
@@ -391,5 +424,5 @@ function iniciarAnimacaoTerminal() {
         }
     }
     setTimeout(typeWriter, 2000);
-    
+
 }
