@@ -46,15 +46,13 @@
 
     .nav-links {
         display: none;
-        flex-direction: column;
+        flex-direction: row;
         position: fixed;
-        width: 100px;
+        width: 90%;
         top: 90px;
-        right: 0;
         background-color: var(--slate-900);
         gap: 10px;
-        border-bottom: 2px solid var(--border-color);
-        z-index: 100;
+        z-index: 1;
         box-sizing: border-box;
     }
 
@@ -64,7 +62,7 @@
     }
 
     .glass-card {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .social-icon {
@@ -97,13 +95,14 @@
 
 @media (max-width: 890px) {
     .btn-text {
-        display: none;
-        /* Esconde o texto */
+        display: block;
+        margin-bottom: 5px;
     }
 
     #btn-contato {
         display: none;
     }
+    
 }
 
 @media (min-width: 891px) {

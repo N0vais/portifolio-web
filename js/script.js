@@ -107,7 +107,14 @@ const contentData = {
         <section id="skills" class="skills">
 
             <h2>Linguagens e Tecnologias</h2>
+
             <div class="skills-container">
+                <div class="skill-item">
+                    <img align="center" alt="N0vais-android-studio" height="50" width="60" 
+                        src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/androidstudio/androidstudio-original.svg" />
+                    Android Studio
+                </div>
+
                 <div class="skill-item">
                     <img align="center" alt="N0vais-visual" height="50" width="60" 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" />
@@ -129,12 +136,26 @@ const contentData = {
                 <div class="skill-item">
                     <img align="center" alt="N0vais-Js" height="50" width="60" 
                         src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"/>
-                        JavaScript
+                    JavaScript
                 </div>
 
                 <div class="skill-item">
-                <img align="center" alt="Node" height="50" width="60" 
-                    src="https://skillicons.dev/icons?i=nodejs"/> Node.js</div>
+                    <img align="center" alt="N0vais-Node" height="50" width="60" 
+                        src="https://skillicons.dev/icons?i=nodejs"/> 
+                    Node.js
+                </div>
+
+                <div class="skill-item">
+                    <img align="center" alt="N0vais-Dart" height="50" width="60" 
+                        src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dart/dart-original.svg"/>
+                        Dart
+                </div>
+
+                <div class="skill-item">
+                    <img align="center" alt="N0vais-Flutter" height="50" width="60" 
+                        src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/flutter/flutter-original.svg"/>
+                        Flutter
+                </div>
 
                 <div class="skill-item">
                     <img align="center" alt="N0vais-FireBase" height="50" width="60" 
@@ -167,7 +188,7 @@ const contentData = {
                 </div>
 
                 <div class="skill-item">
-                    <img align="center" alt="Vercel-Deploy" height="50" width="60" 
+                    <img align="center" alt="N0vais-Vercel-Deploy" height="50" width="60" 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"/>
                         Vercel
                 </div>
@@ -179,6 +200,12 @@ const contentData = {
                     </svg>
                    OpenAI API
                 </div>
+
+                <div class="skill-item">
+                    <img align="center" alt="N0vais-Github" height="50" width="60" 
+                        src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"/>
+                        Github
+                </div>
                 
            </div>
         </section>`,
@@ -188,36 +215,39 @@ const contentData = {
             <div class="section-header">
                 <div>
                     <h2>Projetos em Destaque</h2>
-                    <p>Uma seleção das minhas criações recentes.</p>
+                    <p>Uma seleção das minhas criações recentes, clique nos cards para mais informações.</p>
                 </div>
             </div>
             <div class="projects-grid">
 
-                <div class="project-card">
-                    <div class="icon-box">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 3v18M3 12h18" />
-                            <rect x="9" y="9" width="6" height="6" rx="1" fill="currentColor" fill-opacity="0.2" />
-                            <circle cx="12" cy="3" r="2" />
-                            <circle cx="12" cy="21" r="2" />
-                            <circle cx="3" cy="12" r="2" />
-                            <circle cx="21" cy="12" r="2" />
-                        </svg>    
+                <a href="cards/projeto-fluxoCaixa.html" target="_parent" style="text-decoration: none; color: inherit;">
+                    
+                    <div class="project-card">
+                        <div class="icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3v18M3 12h18" />
+                                <rect x="9" y="9" width="6" height="6" rx="1" fill="currentColor" fill-opacity="0.2" />
+                                <circle cx="12" cy="3" r="2" />
+                                <circle cx="12" cy="21" r="2" />
+                                <circle cx="3" cy="12" r="2" />
+                                <circle cx="21" cy="12" r="2" />
+                            </svg>    
+                        </div>
+                        <h3>Sistema de Cadastro e fluxo de caixa</h3>
+                        <p>
+                            É um sistema de gestão financeira e cadastro híbrido, focado em usabilidade e conformidade.
+                            foi projetado para oferecer controle total sobre as operações de cadastro e movimentações financeiras,
+                            unindo uma interface amigável para o operador a uma camada de supervisão rigorosa para a administração.    
+                        </p>
+                        <div class="tags">
+                            <span class="tag"><i title="VS Code" class="devicon-vscode-plain colored"></i></span>
+                            <span class="tag"><i title="PYTHON" class="devicon-python-plain colored"></i></span>
+                            <span class="tag"><i title="VERCEL" class="devicon-vercel-plain colored"></i></span>
+                            <span class="tag"><i title="GITHUB" class="devicon-github-plain colored"></i></span>
+                            
+                        </div>
                     </div>
-                    <h3>Sistema de Cadastro e fluxo de caixa</h3>
-                    <p>
-                        É um sistema de gestão financeira e cadastro híbrido, focado em usabilidade e conformidade.
-                        foi projetado para oferecer controle total sobre as operações de cadastro e movimentações financeiras,
-                        unindo uma interface amigável para o operador a uma camada de supervisão rigorosa para a administração.    
-                    </p>
-                    <div class="tags">
-                        <span class="tag"><i title="VS Code" class="devicon-vscode-plain colored"></i></span>
-                        <span class="tag"><i title="PYTHON" class="devicon-python-plain colored"></i></span>
-                        <span class="tag"><i title="VERCEL" class="devicon-vercel-plain colored"></i></span>
-                        <span class="tag"><i title="GITHUB" class="devicon-github-plain colored"></i></span>
-                        
-                    </div>
-                </div>
+                </a>
 
                 <a href="https://bridge-site-red.vercel.app/" target="_blank" style="text-decoration: none; color: inherit;">
                     <div class="project-card">

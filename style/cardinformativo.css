@@ -40,7 +40,6 @@ body {
     color: white;
     font-family: sans-serif;
 
-    width: 100%;
     max-width: 600px;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -126,7 +125,7 @@ h1 {
     font-size: 45px;
     margin-bottom: 1rem;
     color: var(--slate-200);
-
+    align-items: center;
 }
 
 p {
